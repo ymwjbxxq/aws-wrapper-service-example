@@ -1,0 +1,26 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationDir": "out/declarations",
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "sourceMap": false,
+    "target": "es2020",
+    "baseUrl": "./src"
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "out/**",
+    "./tests/**/*.ts",
+    "node_modules"
+  ]
+}
