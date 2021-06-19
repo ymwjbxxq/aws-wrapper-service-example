@@ -14,7 +14,7 @@ The batch request will go through successfully, and if you check the output resu
 
 ### SOLUTION ###
 
-No matter what you will do, you will have some failure, so you should try to handle this failure somehow. In the code of this repository, you can find a basic retry scenario with a delay between requests and, hopefully, it is enough to get you started.
+No matter what you do, you will have some failure, so you should somehow handle this failure. In the code of this repository, you can find a basic retry scenario with a delay between requests and, hopefully, it is enough to get you started.
 
 ### WHAT IS MISSING ###
 
